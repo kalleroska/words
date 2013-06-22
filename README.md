@@ -1,2 +1,2 @@
-words - module for combinatorics on words
+words - a module for combinatorics on words
 
