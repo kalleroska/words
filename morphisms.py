@@ -1,6 +1,4 @@
-
-
-def Iterate(h, a='0', N=10**4):
+def iterate(h, a='0', N=10**4):
     """
     Return the length-N prefix of the sequence obtained by iterating
     h on a.
@@ -24,7 +22,7 @@ def Iterate(h, a='0', N=10**4):
 
 if __name__ == '__main__':
     h = {'0': '012', '1': '02', '2': '201'}
-    print(Iterate(h, '2', 30))
-    print(Iterate(h, '3', 30))
+    print(iterate(h, '2', 30))
+    print(iterate(h, '3', 30))
     h['2'] = '203'
-    print(Iterate(h, '2', 30))
+    print(iterate(h, '2', 30))
