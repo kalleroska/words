@@ -1,7 +1,11 @@
 ***words***
 
-A module for combinatorics on words. Try
-```bash
-python3 morphisms.py
+A module for combinatorics on words. 
+
+Example
+```python
+h = {'a': 'ab', 'b': 'a'}
+iterate(h, 'a', 8)
+# abaababa
 ```
 
