@@ -26,8 +26,5 @@ def iterate(h, a='0', N=10**4):
     return aux[:N]
 
 if __name__ == '__main__':
-    h = {'0': '012', '1': '02', '2': '201'}
-    print(iterate(h, '2', 30))
-    print(iterate(h, '3', 30))
-    h['2'] = '203'
-    print(iterate(h, '2', 30))
+    import doctest
+    doctest.testmod()
